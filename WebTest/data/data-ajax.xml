@@ -1,0 +1,8 @@
+﻿<sql>
+  select *
+  from [dbo].[Item] as Item
+  join [dbo].[ItemClass] as ItemClass
+  on Item.Class = ItemClass.Class
+  where ItemID = {id}
+  FOR XML AUTO
+</sql>

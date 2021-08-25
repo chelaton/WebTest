@@ -1,0 +1,3 @@
+﻿<sql>
+  select top(4) * from dbo.Item as Item join dbo.ItemClass as ItemClass on Item.Class = ItemClass.Class FOR XML AUTO
+</sql>

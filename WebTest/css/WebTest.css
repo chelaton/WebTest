@@ -1,0 +1,39 @@
+﻿.content {
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Container holding the image and the text */
+.ImageAndText {
+    position: relative;
+}
+/* Bottom right text */
+.imgId {
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    background-color: white;
+    color: black;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+/* Bottom right text */
+.imageName {
+    position: absolute;
+    bottom: 20px;
+    right: 40%;
+    /*    background-color: black;*/
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.circle {
+    border-radius: 130px;
+}
